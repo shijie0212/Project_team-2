@@ -32,3 +32,16 @@ def profitlossFUC():
             deficit_info += f'[NET PROFIT DEFICIT]Day:{day}, Difference: SGD{abs(new_difference)}\n'
                 # Sort deficit_info by deficit amount in descending order
     deficit_list.sort(reverse=True)
+
+     # Print the top 3 highest deficit amounts and their corresponding days
+    for i, (difference, day) in enumerate(deficit_list[:3], start=1):
+        if i == 1:
+            ordinal = ""
+        elif i == 2:
+            ordinal = "2ND"
+        else:
+            ordinal = "3RD"
+        deficit_info += f'[{ordinal} HIGHEST NET PROFIT DEFICIT] Day:{day}, Difference: SGD{difference}\n'
+    return deficit_info
+
+print(profitlossFUC())
