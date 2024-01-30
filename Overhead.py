@@ -28,6 +28,6 @@ def overheadfuc():
         Highest = max(percentagelist)
         if percentage == max (percentagelist):
             category = cat
-    return f"[Highest Overhead]{category}:{Highest}%"
+    return f"[Highest Overhead]{category}:{Highest}%\n"
 
 print(overheadfuc())

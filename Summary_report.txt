@@ -1,4 +1,5 @@
-[Highest Overhead]Shipping Expense:25.21%[CASH DEFICIT]Day:13, Difference: SGD15204
+[Highest Overhead]Shipping Expense:25.21%
+[CASH DEFICIT]Day:13, Difference: SGD15204
 [CASH DEFICIT]Day:16, Difference: SGD287991
 [CASH DEFICIT]Day:18, Difference: SGD39292
 [CASH DEFICIT]Day:19, Difference: SGD2257
