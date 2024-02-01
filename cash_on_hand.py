@@ -16,7 +16,7 @@ with fp.open(mode="r", encoding="UTF-8", newline="") as file:
         #get the driver id, sales, distance, and event type for each record
         #and append to the deliveryRecords list
         cash_on_hand.append([row[0],row[1]])   
-# print(cash_on_hand)
+print(cash_on_hand)
 
 def CashonhandFUC():
     '''

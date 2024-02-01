@@ -16,7 +16,7 @@ with fp.open(mode="r", encoding="UTF-8", newline="") as file:
         #get the category and overhead for each record
         #and append to the overhead list
         overheads.append([row[0],row[1]])   
-# print(overheads)
+print(overheads)
 
 
 percentagelist=[]
