@@ -14,7 +14,7 @@ with fp.open(mode="r", encoding="UTF-8", newline="") as file:
     # append delivery record into the deliveryRecords list
     for row in reader:
         #get the driver id, sales, distance, and event type for each record
-        #and append to the deliveryRecords list
+        #and append to the cash on hand list
         cash_on_hand.append([row[0],row[1]])   
 print(cash_on_hand)
 
