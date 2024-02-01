@@ -19,12 +19,19 @@ with fp.open(mode="r", encoding="UTF-8", newline="") as file:
 # print(profitloss)
 
 def profitlossFUC():
+    '''
+    To calculate the net profit deficit 
+    '''
+    # Initialize variables
     previous = 0
     deficit_list = []
     deficit_info=""
+    # Iterate through profit loss data
     for item in profitloss:
+        # Calculate the difference between current and previous profit
         new_difference = int(item[4]) - previous 
         previous = int(item[4])
+        # Check if the difference is negative (indicating a deficit)
         if new_difference < 0:
             day=item[0]
             # deficit_list.append(new_difference)
